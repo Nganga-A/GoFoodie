@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:provider/provider.dart';
+=======
+>>>>>>> 86fb33111f468b5ddb1fb32ce8bf9d556e3e422c
 import 'pages/login_page.dart';
 
 void main() {
@@ -20,7 +23,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: LoginPage(),
+<<<<<<< HEAD
       theme:Provider.of<ThemeProvider>(context).themeData,
+=======
+>>>>>>> 86fb33111f468b5ddb1fb32ce8bf9d556e3e422c
     );
   }
 }
